@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    /* background-image: url('images/background.jpeg'); */
+    /* background-repeat: no; */
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+
+
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none; 
+    /* to remove bullets */
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px; 
+    /* hoeriszontal syyle with space */
+}
+a{
+    text-decoration: none;
+    color: #f4eded;
+    font-size: 25px;
+}
+p{
+    color:#eae0e0;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left:25px;
+    padding-right: 25px;
+}
+.row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.col-2{
+    flex-basis:50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width:100% ;
+    padding:50px 0;
+}
+
+.col-2 h1{
+    font-size: 39px;
+    line-height: 60px;
+    margin: 20px 0px ;
+    color: white;
+}
+.btn{
+    display: inline-block;
+    background:#ff523b;
+    color: #fff;
+    padding:8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.header{
+    background:radial-gradient(#fff,#ffd6d6);
+        background-image: url('images/background.jpeg'); 
+        background-repeat: no-repeat;
+        background-size:cover;
+        z-index: 0.5;
+
+}
+.card{
+    background-color: bisque;
+    
+}
+.card img{
+    align-items: center;
+}
+.card-img-top{
+    width: 18rem;
+    height: 18rem;
+}
+.cards h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.card-text{
+    color:black;
+}
+.card-title{
+    font-size:30px;
+    padding-top:10px;
+    padding-bottom: 20px;
+    /* margin-right: 50px; */
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.rating{
+    margin-top: 40px;
+    font-size: 1.2rem;
+    /* color */
+}
+.rating-text{
+    font-size: 0.9em;
+    color:#555;
+    margin-left:5px;
+}
+.checked{
+color:orange;
+}
+.btn-primary{
+    font-size: 20px;
+}
+footer{
+    padding:20px 20px;
+    background-color: #ff523b;
+    color:black;
+    text-align: center;
+    align-items: center;
+}
